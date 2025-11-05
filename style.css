@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  background: #161b22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav h2 {
+  color: #58a6ff;
+}
+
+nav h2 span {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #c9d1d9;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #58a6ff;
+}
+
+/* Hero */
+header {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+header h1 span {
+  color: #58a6ff;
+}
+
+header p {
+  margin: 15px 0;
+  font-size: 1.2em;
+  color: #8b949e;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  border: 1px solid #58a6ff;
+  color: #58a6ff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+/* Sections */
+section {
+  padding: 70px 10%;
+}
+
+h2 {
+  color: #58a6ff;
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+
+p {
+  color: #c9d1d9;
+}
+
+.skills span {
+  display: inline-block;
+  background: #161b22;
+  color: #58a6ff;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  font-size: 0.95em;
+}
+
+/* Projects */
+.project-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  border-color: #58a6ff;
+  transform: scale(1.02);
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+}
+
+footer {
+  background: #161b22;
+  text-align: center;
